@@ -6,18 +6,18 @@ include 'setting.php';
 echo '<script>window.location.href = "./install/index.php";</script>';
 }
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="<?php echo $bySiteFab;?>" type="image/x-icon">
-    <meta name="description" content="<?php echo $bySiteDesc;?>">
-    <meta name="theme-color" content="<?php echo $bySiteColor;?>">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="shortcut icon" href="<?php echo $bySiteFab;?>" type="image/x-icon" />
+    <meta name="description" content="<?php echo $bySiteDesc;?>" />
+    <meta name="theme-color" content="<?php echo $bySiteColor;?>" />
     <title><?php echo $bySiteTitle;?></title>
     <link rel="stylesheet" href="assets/minified/themes/default.min.css" />
 <script src="assets/minified/sceditor.min.js"></script>
-<link href="/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link href="/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
 
 
     <style>
@@ -33,7 +33,7 @@ echo '<script>window.location.href = "./install/index.php";</script>';
       }
     </style>
 
-    <link href="navbar.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet" />
   </head>
   <body style="background-color: <?php echo $bySiteSubColor;?>">
 <!-- 사전 정의 -->
@@ -89,7 +89,7 @@ if(!empty($_SESSION['userid'])){
           <form action="search.php" method="post" id="openup" style="display: none">
             <a><input class="form-control" type="text" name="title"></a>
             <a><button class="btn btn-primary form-control" type="submit" style="float: right">검색</button></a>
-            <hr>
+            <hr />
           </form>
 <p align="center">
 </p>
