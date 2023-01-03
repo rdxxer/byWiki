@@ -1,0 +1,11 @@
+ErrorDocument 404 ./404.php
+ErrorDocument 403 ./404.php
+
+RewriteEngine On
+
+RewriteRule ^.gitignore$ ./404.php [L]
+RewriteRule ^*.php$ ./404.php [L]
+RewriteRule ^README.md$ ./404.php [L]
+RewriteRule ^LICENSE$ ./404.php [L]
+RewriteRule ^css/$ ./404.php [L]
+RewriteRule ^js/$ ./404.php [L]
