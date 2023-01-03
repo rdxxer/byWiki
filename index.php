@@ -1,5 +1,5 @@
 <?php
-include 'up.php';
+include 'header.php';
 
 if(!empty($_GET['b'])){
     $turn = $_GET['b'];
@@ -36,5 +36,5 @@ echo "<p>$cont</p>";
 
 
 
-include 'down.php';
+include 'footer.php';
 ?>

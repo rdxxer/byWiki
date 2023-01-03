@@ -1,5 +1,5 @@
 <?php
-include 'up.php';
+include 'header.php';
 $title = $_POST['title'];
 $query = htmlentities($title);
 ?>
@@ -44,5 +44,5 @@ while ($row = mysqli_fetch_array($result)){
 준비중입니다.
 </ul>
 <?php
-include 'down.php';
+include 'footer.php';
 ?>
